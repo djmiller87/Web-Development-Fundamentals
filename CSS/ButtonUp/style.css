@@ -1,0 +1,44 @@
+#div{
+    margin-left: 50px;
+    overflow: auto;
+    height: auto;
+    
+}
+.search{
+    width: 150px;
+    border: 2px solid rgb(52, 104, 104) ;
+    border-radius: 25px; 
+    color: rgb(52, 104, 104); 
+    background-color: white;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 3px;
+}
+.add{
+    margin: 5px;;
+    border: 3px;
+    border-radius: 50%; 
+    border-color: rgb(52, 104, 104); 
+    color: white;  
+    background-color: rgb(52, 104, 104);
+    width: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20pt;
+    padding: 2px;
+    
+}
+.account {
+    margin: 5px;
+    border: 2px solid black;
+    color: white;  
+    background-color: blue;
+    width: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12pt;
+    box-shadow: 4px 4px black;
+    padding: 5px;  
+}
