@@ -1,0 +1,45 @@
+#container {
+    width: 900px;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    background-color: gray;
+    border-radius:  10px;
+;
+}
+
+.nav-title {
+    width: 200px;
+    height: 65px;
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.nav-links {
+    width: 700px;
+    margin: 0px 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    margin: 15px;
+    box-shadow: 2px 2px black;
+}
+
+.active, .home, .find {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
