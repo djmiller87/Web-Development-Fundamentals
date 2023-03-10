@@ -1,0 +1,44 @@
+#container {
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border: 0px 2px;
+    border-color: black;
+}
+.line {
+    width: 760px;
+    height: 200px;
+    margin: 20px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    height: 175px;
+    padding: 20px;
+    margin: 5px 20px;
+}
+#row1 {
+    background-color: gray;
+}
+#row2 {
+    background-color: purple;
+}
+#row3 {
+    background-color: white;
+    margin-bottom: 0px;
+}
+.reference,.header {
+    height: 50px;
+    width: 780px;
+    background-color: white;
+    color: rgb(105, 50, 50);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
