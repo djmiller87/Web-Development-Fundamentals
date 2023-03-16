@@ -1,0 +1,29 @@
+h1{
+    padding: 5px;
+    padding-left: 20px;
+    height: 50px;
+    color:white; 
+    background-color:black;
+    font-family: cursive;
+}
+h2{
+    padding-top: 10px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+
+}
+h3{
+    height: 50px;
+    color: darkblue;
+    background-color: lightblue;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-family: cursive;
+    padding-right: 20px;
+    padding-top: 20px;
+}

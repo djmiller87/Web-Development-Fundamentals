@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.user-card {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.top {
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+    top: 50px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: grey;
+}
+
+.bottom {
+    width: auto;
+    height: 265px;
+    border-width: 2px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.info {
+    position: relative;
+    left: 25px;
+    top: 65px;
+}
+
+.marker, .gear {
+    height: 20px;
+    padding: 0px 5px;
+}
+
+.line {
+    padding: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.kc {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.button {
+    border: 0px;
+    padding: 3px;
+}
+
+.button:hover {
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+}
+
+.edit {
+    color: blue;
+    text-decoration: underline;
+    padding-right: 15px;
+    font-size: large;
+    /* font-weight: 600; */
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.qual {
+    font-weight: bold;
+}
+
+
